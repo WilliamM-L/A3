@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A3Q1</title>
+    <script src="a3q1.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <h1>Assignment 3 Question 1</h1>
+      <form>
+        Search in this text: <br><textarea name="toSplit" rows="10" cols="80"></textarea><br>
+        Split the text according to these characters: <input type="text" name="delimiter" value=";"><br>
+        Test each token with this regex: <input type="text" name="regex" value=""><br>
+        Modifiers for the regex: <input type="text" name="modifiers" value="i"><br>
+        <input type="button" name="Search" value="Search" onclick="search()"> &nbsp <input type="reset" name="Reset">
+        <!-- The input must be of type button (not submit!) otherwise the added text doesn't stay.  -->
+      </form>
+      <p></p>
+  </body>
+</html>
